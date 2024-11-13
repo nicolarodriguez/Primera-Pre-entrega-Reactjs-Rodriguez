@@ -1,0 +1,141 @@
+nav{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    border-radius: 5px;
+}
+button{
+    margin:10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-content: space-between;
+    text-decoration: none;
+    outline: none;
+    background: none;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+button:hover{
+    background-color: rgb(3, 54, 54);
+}
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.productos-dispo{
+    text-align: center;
+}
+
+.product-list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: darkcyan;
+    align-items: center;
+    justify-content: center;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px black;
+    padding: 15px;
+    margin: 20px;
+    width: 500px;
+    align-items: center;
+    background-color: white;
+    
+}
+.article h3{
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: darkcyan;
+}
+.productos-de-cat{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+.article-category{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px black;
+    padding: 15px;
+    margin: 20px;
+    width: 500px;
+    align-items: center;
+    background-color: white;
+}
+
+.color-fondo{
+    background-color: darkcyan;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+}
+
+.precio{
+    display: flex;
+    justify-content: baseline;
+    margin-top: auto;
+    font-weight: bold;
+}
+.article-detail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px black;
+    padding: 15px;
+    margin: 20px;
+    width: 500px;
+    align-items: center;
+    background-color: white;
+}
+.button{
+    display: flex;
+    justify-content: baseline;
+    margin-top: auto;
+    text-decoration: none;
+    outline: none;
+    background: none;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.button:hover{
+    background-color: rgb(3, 54, 54);
+}
+
+.imagen{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
