@@ -1,3 +1,4 @@
+
 nav{
     display: flex;
     justify-content: flex-start;
@@ -8,6 +9,17 @@ nav{
     justify-content: space-between;
     gap: 50px;
     border-radius: 5px;
+}
+.navbar-cart{
+    height: 60px;
+    align-items: baseline;
+    gap: 50px;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
 }
 button{
     margin:10px;
@@ -26,6 +38,26 @@ button:hover{
     background-color: rgb(3, 54, 54);
 }
 
+.button-sign-minus{
+    gap: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    background-color: salmon;
+}
+.button-sign-plus{
+    gap: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    background-color: skyblue;
+}
 
 .logo{
     width: 150px;
@@ -135,6 +167,35 @@ button:hover{
 }
 
 .imagen{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.carrito-fondo{
+    background-color: darkcyan;
+}
+
+.carrito-fondo h1{
+    text-align: center;
+    color: white;
+}
+
+.cart-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px black;
+    padding: 15px;
+    margin: 20px;
+    width: 500px;
+    align-items: center;
+    background-color: white;
+}
+
+.cart-item img{
     width: 100%;
     height: 400px;
     object-fit: cover;
